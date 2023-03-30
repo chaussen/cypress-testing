@@ -1,0 +1,27 @@
+{
+   "compilerOptions": {
+      "experimentalDecorators": true,
+      "baseUrl": "./",
+      "lib": [
+         "esnext",
+         "dom"
+      ],
+      "module": "esnext",
+      "resolveJsonModule": true,
+      "allowSyntheticDefaultImports": true,
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "outDir": "./dist/out-tsc",
+      "sourceMap": true,
+      "target": "ES2015",
+      "typeRoots": [
+         "node_modules/@types",
+         "cypress"
+      ],
+      "types": [
+         "cypress",
+         "node",
+         "cypress-map",
+      ]
+   }
+  }
